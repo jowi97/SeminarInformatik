@@ -1,0 +1,78 @@
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+% LaTeX package for Prof. Golds "Seminar zu Themen der Informatik".
+%
+% Adjusts page geometry, fonts and spacing to the provided MS Word template.
+% Also overrides the \maketitle command to generate the required paper title
+% section.
+%
+% Author: Wolfram Reinke
+% Date:   July 10, 2020
+% ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{thisemi}[2020/06/24 THI Seminar Paper Template]
+
+\RequirePackage[main=ngerman,english]{babel}
+
+% adapts page dimensions and layout to the provided template
+\RequirePackage[a4paper, top=0.98in, bottom=0.98in, left=0.98in, right=0.98in,
+   footskip=0.45in]{geometry}
+
+% Closest equivalent to the Times New Roman font
+\RequirePackage{mathptmx}
+
+% overrides figure and table caption spacing
+\RequirePackage{caption}
+\captionsetup[figure]{aboveskip=6pt}
+\captionsetup[figure]{belowskip=6pt}
+\captionsetup[table]{aboveskip=6pt}
+\captionsetup[table]{belowskip=6pt}
+
+\ProcessOptions\relax
+
+% adjust paragraph spacing and indentation to the Word template
+\setlength{\parindent}{0pt}
+\setlength{\parskip}  {6pt}
+
+% renames the 'Bibliography' section for a German document
+\renewcommand\refname{Literaturverzeichnis}
+\addto\captionsngerman{\renewcommand{\refname}{Literaturverzeichnis}}
+
+% may be changed to sffamily to get the default KOMAScript look
+\newcommand{\semi@fontfamily}{\rmfamily}
+
+% font with serifs and template-compliant spacing around section headings
+\setkomafont{section}{\normalfont\KOMAoptions{fontsize=14pt}\semi@fontfamily\bfseries}
+\setkomafont{subsection}{\normalfont\KOMAoptions{fontsize=14pt}\semi@fontfamily\bfseries}
+\RedeclareSectionCommand[beforeskip=18pt,afterskip=12pt]{section}
+
+% redefine the \maketitle macro such that it is in line with the provided MS
+% Word template by Prof. Gold.  Values arrived at by trial and error
+\newcommand{\semi@bigskip}{39pt}
+\newcommand{\semi@medskip}{15pt}
+\newcommand{\semi@smlskip}{12pt}
+\newcommand{\semi@endskip}{19pt}
+\newcommand{\semi@lrgfont}{\KOMAoptions{fontsize=16pt}}
+\newcommand{\semi@medfont}{\KOMAoptions{fontsize=14pt}}
+\renewcommand{\maketitle}{%
+  \begin{center}{
+    \semi@lrgfont{}
+    Technische Hochschule Ingolstadt\\
+    \vspace{\semi@medskip}
+    Seminar zu Themen der Informatik\\
+    \semi@medfont{}
+    \vspace{\semi@smlskip}
+    \@date\\
+    \vspace{\semi@bigskip}
+    Seminararbeit\\
+    \vspace{\semi@smlskip}
+    \@title\\
+    \vspace{\semi@smlskip}
+    von\\
+    \vspace{\semi@smlskip}
+    \@author\\
+    \vspace{\semi@endskip}
+    }%
+  \end{center}
+}
+
+\endinput

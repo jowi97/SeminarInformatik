@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.15)  20 MAY 2021 14:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.5.15)  25 MAY 2021 19:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -328,7 +328,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \Gin@req@height=\dimen155
 \Gin@req@width=\dimen156
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 20.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 15.
  (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
@@ -338,20 +338,20 @@ File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
 ) (./example.aux)
 \openout1 = `example.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -448,101 +448,87 @@ Overfull \hbox (3.67424pt too wide) in paragraph at lines 1--23
 
 [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]) (./Sections/3. Fahrzeugbezogenen Ransomware in der Theorie.tex
-Overfull \hbox (6.72997pt too wide) in paragraph at lines 10--11
-[]\OT1/ptm/m/n/10.95 Ein an-ony-mes Bot-netz zur glo-ba-len Ver-tei-lung und Fern-steue-rung der Ransomware-Fahrzeugclients. 
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 25.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 46.
+ (c:/texlive/2021/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 46.
+) (./Sections/3. Fahrzeugbezogenen Ransomware in der Theorie.tex
+Overfull \hbox (3.99248pt too wide) in paragraph at lines 10--11
+[]\OT1/ptm/m/n/10.95 Ein an-ony-mes Bot-netz zur glo-ba-len Ver-tei-lung und Fern-steue-rung der Ransomware-Fahrzeugclients 
  []
 
 [2]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 31.
 )
-Overfull \hbox (17.24052pt too wide) in paragraph at lines 22--32
-\OT1/ptm/m/n/10.95 pro-gram-miert wur-de, muss die-se auf die aus-gew[]ahlten Erpressungs-Zielfahrzeuge mit-tels ei-ner Ransomware-
+Underfull \hbox (badness 10000) in paragraph at lines 22--27
+
  []
 
-(./Sections/4. Fahrzeugbezogenen Ransomware in der Praxis.tex) (./Sections/4.1. Erstellen einer fahrzeugbezogenen Ransomware.tex) [3] (./Sections/4.2. Verbreitung der fahrzeugbezogenen Ransomware.tex
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4.
- (c:/texlive/2021/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (12.74062pt too wide) in paragraph at lines 26--28
-[]\OT1/ptm/m/n/10.95 Verkehrsinfrastrukturen (z. B. Ver-kehrs-ma-na-ge-ment-sys-te-me, Bau-stel-len-zu-gangs-kon-troll-ger[]ate, Maut-
- []
-
-) (./Sections/4.3. Infizierung des Zielfahrzeugs.tex
+(./Sections/4. Fahrzeugbezogenen Ransomware in der Praxis.tex) (./Sections/4.1. Erstellen einer fahrzeugbezogenen Ransomware.tex) [3] (./Sections/4.2. Verbreitung der fahrzeugbezogenen Ransomware.tex) (./Sections/4.3. Infizierung des Zielfahrzeugs.tex
 Overfull \hbox (3.02809pt too wide) in paragraph at lines 1--18
 \OT1/ptm/m/n/10.95 Mehrere Stu-di-en bzw. For-schungs-ar-bei-ten ha-ben be-reits be-wie-sen, dass fahr-zeu-gin-ter-ne Si-cher-heitsl[]ucken
  []
 
 [4]) (./Sections/4.4. Erpressung im Zielfahrzeug.tex
-Underfull \hbox (badness 10000) in paragraph at lines 15--20
+Underfull \hbox (badness 10000) in paragraph at lines 14--19
 
  []
 
-<Images/Diagnostic-Scanning-1.jpg, id=18, 1215.03937pt x 678.28406pt>
+<Images/Diagnostic-Scanning-1.jpg, id=19, 1215.03937pt x 678.28406pt>
 File: Images/Diagnostic-Scanning-1.jpg Graphic file (type jpg)
 <use Images/Diagnostic-Scanning-1.jpg>
-Package pdftex.def Info: Images/Diagnostic-Scanning-1.jpg  used on input line 23.
+Package pdftex.def Info: Images/Diagnostic-Scanning-1.jpg  used on input line 22.
 (pdftex.def)             Requested size: 387.48318pt x 216.29979pt.
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 29--42
 
  []
 
-[5]
-<Images/WannaDrive.png, id=22, 364.36125pt x 188.95593pt>
+<Images/WannaDrive.png, id=23, 364.36125pt x 188.95593pt>
 File: Images/WannaDrive.png Graphic file (type png)
 <use Images/WannaDrive.png>
 Package pdftex.def Info: Images/WannaDrive.png  used on input line 45.
-(pdftex.def)             Requested size: 387.48318pt x 200.95546pt.
-) (./Sections/4.5. Ablauf der Lösegeldzahlung und Freigabe des Zielfahrzeugs.tex [6 <./Images/Diagnostic-Scanning-1.jpg> <./Images/WannaDrive.png>]) (./Sections/5. Präventivmaßnahmen gegen fahrzeugbezogene Ransomware.tex) [7] (./Sections/5.1. Absicherung des gesamten Fahrzeugsystems.tex) (./Sections/5.2. Absicherung des gesamten Fahrzeuglebenszyklus.tex) (./Sections/5.3. Absicherung der gesamten Fahrzeugorganisation.tex) [8] (./Sections/6. Maßnahmen gegen fahrzeugbezogene Ransomware.tex
-Overfull \hbox (1.7153pt too wide) in paragraph at lines 12--14
-[]\OT1/ptm/m/n/10.95 M[]oglichst fr[]uhzeitige Er-ken-nung von Fahrzeug-Ransomware durch Mel-dun-gen ers-ter Op-fer (Worst
+(pdftex.def)             Requested size: 341.89449pt x 177.31007pt.
+) (./Sections/4.5. Ablauf der Lösegeldzahlung und Freigabe des Zielfahrzeugs.tex [6 <./Images/Diagnostic-Scanning-1.jpg> <./Images/WannaDrive.png>]) (./Sections/5. Präventivmaßnahmen gegen fahrzeugbezogene Ransomware.tex [7]) (./Sections/5.1. Absicherung des gesamten Fahrzeugsystems.tex) (./Sections/5.2. Absicherung des gesamten Fahrzeuglebenszyklus.tex) (./Sections/5.3. Absicherung der gesamten Fahrzeugorganisation.tex) [8] (./Sections/6. Maßnahmen gegen fahrzeugbezogene Ransomware.tex
+Overfull \hbox (1.28758pt too wide) in paragraph at lines 26--29
+[]\OT1/ptm/m/n/10.95 Technische Re-ak-ti-ons-ma^^Y-nah-men wie z.B. die Be-reit-stel-lung von Steu-er-ger[]ate-Backup-Firm-
  []
 
-
-Overfull \hbox (50.73717pt too wide) in paragraph at lines 25--28
-[]\OT1/ptm/m/n/10.95 Technische Re-ak-ti-ons-ma^^Y-nah-men wie z.B. die Be-reit-stel-lung von Steu-er-ger[]ate-Backup-Firmware/Daten,
- []
-
-
-Overfull \hbox (11.87634pt too wide) in paragraph at lines 25--28
-\OT1/ptm/m/n/10.95 Fahrzeug- und/oder Infrastruktur-Software-(Sicherheits-)Patches, Steu-er-ger[]ate-/Fahrzeug- Neu-
- []
-
-
-Overfull \hbox (39.65607pt too wide) in paragraph at lines 37--40
-\OT1/ptm/m/n/10.95 zur lang-fris-ti-gen Eind[]ammung, vollst[]andigen Wie-der-her-stel-lung, Lessons-Learned, Pr[]aventionsma^^Ynahmen
- []
-
-) (./Sections/7. Fazit.tex) [9] (./example.bbl) [10]
+[9]) (./Sections/7. Fazit.tex) (./example.bbl) [10]
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     64.
+(LaTeX3)     58.
 
 
 LaTeX3 Info: Redefining command \BeforeClosingMainAux with sig. 'm' on line
-(LaTeX3)     64.
+(LaTeX3)     58.
 
  (./example.aux) ) 
 Here is how much of TeX's memory you used:
- 7014 strings out of 478846
- 140203 string characters out of 5859791
- 574045 words of memory out of 5000000
- 24521 multiletter control sequences out of 15000+600000
- 434612 words of font info for 84 fonts, out of 8000000 for 9000
+ 7032 strings out of 478846
+ 140529 string characters out of 5859791
+ 574049 words of memory out of 5000000
+ 24537 multiletter control sequences out of 15000+600000
+ 433864 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,8n,110p,10702b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on example.pdf (10 pages, 469869 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2021/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on example.pdf (10 pages, 480781 bytes).
 PDF statistics:
- 54 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 58 PDF objects out of 1000 (max. 8388607)
+ 38 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

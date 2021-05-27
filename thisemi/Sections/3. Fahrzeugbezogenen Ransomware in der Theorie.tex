@@ -6,38 +6,39 @@ Notwendigkeit mindestens folgender fünf Bedingungen:
 
 \begin{enumerate}
     \item Einen Ransomware-Malware-Client und eine Server-Software für die On-Board-Realisierung 
-    der Cyber-Erpressung auf dem Zielfahrzeug zusammen mit der entsprechenden Fernsteuerung.
-    \item Ein anonymes Botnetz zur globalen Verteilung und Fernsteuerung der Ransomware-Fahrzeugclients.
-    \item Ein fahrzeuginterner Sicherheits-Exploit meist zusammen mit Trojaner-Software zum 
+    der Cyber-Erpressung auf dem Zielfahrzeug zusammen mit der entsprechenden Fernsteuerung
+    \item Ein anonymes Botnetz zur globalen Verteilung und Fernsteuerung der Ransomware-Fahrzeugclients
+    \item Ein fahrzeuginterner Sicherheits-Exploit, meist zusammen mit einer Trojaner-Software zum 
     Erreichen und Infizieren einer angeschlossenen Fahrzeugeinheit, um den Ransomware-Malware-Client 
-    zu installieren und auszuführen.
+    zu installieren und auszuführen
     \item Eine bordeigene Sperr- oder Bricking-Aktion für eine kritische Fahrzeugkomponente, die 
     nicht (leicht) wiederhergestellt oder umgangen werden kann oder die sich keine lange Ausfalldauer 
-    leisten kann; idealerweise kombiniert mit einem (geheimen) Entsperrbefehl, um die gesperrte 
-    Fahrzeugkomponente nach Zahlung des Lösegelds freizugeben.
+    leisten kann - idealerweise kombiniert mit einem (geheimen) Entsperrbefehl, um die gesperrte 
+    Fahrzeugkomponente nach Zahlung des Lösegelds freizugeben
     \item Ein anonymes Zahlungsschema zur Entgegennahme des Lösegelds und zum Schutz des Erpressers 
-    vor Enttarnung und anschließenden rechtlichen Schritten. 
+    vor Enttarnung und anschließenden rechtlichen Schritten
 \end{enumerate}
 
 Sind diese Voraussetzungen mindestens gegeben, dann könnte ein Ransomware-Angriff auf ein 
-Fahrzeug wie folgt ablaufen.
+Fahrzeug wie folgt ablaufen:
 \newline
-Zu allererst muss der Angreifer die Schadsoftware erstellen. Sobald eine funktionierende 
+\newline
+Zu Beginn muss der Angreifer die Schadsoftware erstellen. Sobald eine funktionierende 
 Ransomware programmiert wurde, muss diese auf die ausgewählten Erpressungs-Zielfahrzeuge 
-mittels einer Ransomware-Steuerungssoftware verteilt werden. Im besten Fall geschieht dies 
+mittels einer Ransom"-ware-Steuerungssoftware verteilt werden. Im besten Fall geschieht dies 
 mittels eines anonymen Botnetzes, welches beispielsweise auf der TOR-Technologie 
 \footnote{„The Onion Router“ – Verschlüsselung der Daten in mehreren Schichten, um anonymes 
 surfen zu ermöglichen} basieren könnte. 
 \newline
-Hat die Software das Zielfahrzeug erreicht, muss dieses infiziert werden. Das kann auf Zwei 
-wegen passieren: direkt und indirekt. 
+Hat die Software das Zielfahrzeug erreicht, muss dieses infiziert werden. Das kann direkt oder  
+indirekt erfolgen.
 \newline
 Eine direkte Infizierung könnte beispielsweise über eine USB-Schnittstelle oder Ladeschnittstelle 
-erfolgen. Eine indirekte Infizierung hingegen würde sich eine sekundäre Sicherheitslücke zu Nutze 
-machen und über eine Zwischenkomponente versuchen, z.B. eine infizierte Website, auf welche das 
-Fahrzeug zugreifet, suchen, die Software auf das Fahrzeug zu laden. 
+realisiert werden. Eine indirekte Infizierung hingegen würde sich eine sekundäre Sicherheitslücke zu Nutze 
+machen und über eine Zwischenkomponente versuchen, die Software auf das Fahrzeug zu laden. 
+Das kann z.B. eine infizierte Website sein, auf welche das Fahrzeug zugreifet.
 \newline
-Wenn dieses Vorgehen erfolgreich geklappt hat und die Software das Fahrzeug erreicht hat, wird 
+Wenn dieses Vorgehen erfolgreich ist und die Software das Fahrzeug erreicht hat, wird 
 der integrierte primäre Sicherheits-Exploit des Fahrzeuges genutzt, um den Ransomware-Client auf 
 einer zentralen, gut vernetzten Einheit im Fahrzeug zu installieren und auszuführen. Diese Einheit 
 könnte z.B. das Infotainment-System sein, welche dann als Host für weitere Aktionen missbraucht 
@@ -45,12 +46,12 @@ wird.
 \newline
 Je nachdem, mit welchem Vorgehen die Erpresser das Auto manipulieren wollen, kann der 
 Ransomware-Client entweder eine Online-Verbindung zurück zum Erpresser aufbauen, um weitere 
-Daten und/oder Befehle zu erhalten oder direkt über die fahrzeuginternen Bussysteme nutzen. 
+Daten und/oder Befehle zu erhalten oder den Weg direkt über die fahrzeuginternen Bussysteme nutzen. 
 Über diese könnte die Schadsoftware mit kritischen Steuergeräten (z.B. Motorsteuerung) 
 kommunizieren, um somit die geplante Sperraktion durchzuführen. 
 \newline
-Hat dieses Vorhaben erfolgreich geklappt, dann muss nur noch die Erpressermeldung mit den 
+Ist dieses Vorhaben gelungen, muss nur noch die Erpressermeldung mit den 
 nötigen Details zur anonymen Bezahlung auf einem Bildschirm im Fahrzeug angezeigt werden. 
 Im Falle, dass das Opfer das geforderte Lösegeld tatsächlich bezahlt, würde die Ransomware 
-erneut das Bot-Netzwerk kontaktieren, um den (geheimen) Entsperrbefehel/Entsperrungsbefehl? 
-Zu erhalten und damit das Fahrzeug wieder freizugeben.
+erneut das Bot-Netzwerk kontaktieren, um den (geheimen) Entsperrbefehl zu erhalten, damit  
+das Fahrzeug wieder freigeben werden kann.
